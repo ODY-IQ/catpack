@@ -7,7 +7,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ody97/CatArabic/",
+  "repository": "https://github.com/ODY-IQ/catpack",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -25,10 +25,6 @@
     },
     "STRING_SESSION": {
       "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
-      "value": ""
-    },
-    "TG_BOT_USERNAME": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
       "value": ""
     },
     "TG_BOT_TOKEN": {
@@ -60,12 +56,6 @@
       "value": "Asia/Baghdad",
       "required": false
     },
-    "UPSTREAM_REPO": {
-      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
-      "value": "CatArabic",
-      "required": false
-    }
-  },
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
@@ -73,18 +63,21 @@
     }
   }],
   "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    "url": "https://github.com/Jmthon2/heroku-buildpack-ffmpeg-latest"
   },{
     "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
   },{
     "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
   },{
-    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
   },{
     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
   },{
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
   },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
     "url": "heroku/python"
-  }]
+  }],
+  "stack": "heroku-22"
 }
