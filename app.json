@@ -1,6 +1,6 @@
 {
   "name": "CatArabic",
-  "description": " Arabic jmthonc Powerful & Safe based on Telethon",
+  "description": " Arabic CatArabic",
   "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
   "keywords": ["plugin","modular","productivity"],
   "repository": "https://github.com/ODY-IQ/catpack",
@@ -12,31 +12,42 @@
       "value": ""
     },
     "APP_ID": {
-      "description": "هنا ضع الايبي ايدي الخاص بك يتكون من ارقام", 
+      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
       "value": ""
     },
     "API_HASH": {
-      "description": "هنا ضع الايبي هاش الخاص بك يتكون من احرف و ارقام",
+      "description": "هنا ضع الايبي هاش الخاص بك",
       "value": ""
     },
-    "STRING_SESSION": {
-      "description": " ضع كود تيرمكس",
-      "value": ""
-    },
-    "TG_BOT_USERNAME": {
-      "description": " ضع معرف بوتك بدون @",
-      "value": ""
-    },
-    "TG_BOT_TOKEN": {
-      "description": "ضع توكن بوتك",
-      "value": ""
+    "ENV": {
+      "description": "لا تغير هذه القيمه",
+      "value": "ANYTHING"
     },
     "COMMAND_HAND_LER": {
-      "description": "اتركة كما هوة او ضع الأمر الذي تريده بدلا من النقطة",
+      "description": "لا تغير هذه القيمه",
       "value": "."
     },
+    "STRING_SESSION": {
+      "description": "هنا ضع كود سيشن تيليثون او بايروجرام كود تيرمكس الخاص بك",
+      "value": "",
+      "required": false
+    },
+    "TG_BOT_TOKEN": {
+      "description": "هنا ضع توكن بوتك الذي صنعته",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم التطبيق",
+      "value": "",
+      "required": false
+    },
     "TZ": {
-      "description": "ضع القاره / عاصمة بلدك ( اذا كنت لاتعرفه اتركة كما هوة )",
+      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
       "value": "Asia/Baghdad",
       "required": false
     }
@@ -48,7 +59,7 @@
     }
   }],
   "buildpacks": [{
-    "url":"https://github.com/telethonArab/heroku-buildpack-ffmpeg-latest"
+    "url": "https://github.com/Jmthon2/heroku-buildpack-ffmpeg-latest"
   },{
     "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
   },{
