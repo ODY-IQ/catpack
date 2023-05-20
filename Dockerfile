@@ -8,10 +8,10 @@ RUN npm i -g npm
 RUN apt install ffmpeg -y
 
 
-WORKDIR /root/userbot
+WORKDIR /root/CatArabic
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-ENV PATH="/home/userbot/bin:$PATH"
+ENV PATH="/home/CatArabic/bin:$PATH"
 
-CMD ["python3","-m","userbot"]
+CMD ["python3","-m","CatArabic"]
