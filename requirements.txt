@@ -1,9 +1,7 @@
-Telethon==1.25.2
-telethon-session-sqlalchemy
+telethon
 setuptools
 wheel
 aiohttp
-python-dotenv
 beautifulsoup4
 cfscrape
 cloudscraper
@@ -49,6 +47,7 @@ pylast
 pymediainfo
 pySmartDL
 python-barcode
+pyrogram
 pyTelegramBotAPI==3.7.7
 pytuneteller
 pytz
@@ -74,19 +73,8 @@ vcsi
 wand
 wikipedia
 ujson
-TgCrypto
-ffmpeg-python
-youtube-search-python==1.4.9
-youtube-search
-gitpython
-yt-dlp
-youtube_dl
-moviepy
-randomstuff.py
-git+https://github.com/pytgcalls/pytgcalls
-pyminizip
-pybase64
-covid
+yt_dlp
 
+git+https://github.com/alexmercerind/youtube-search-python
 git+https://github.com/buddhhu/img2html.git
 git+https://github.com/sandy1709/py-googletrans
