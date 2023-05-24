@@ -69,7 +69,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _set_bot () {
     local zippath
-    zippath="catuserbot.zip"
+    zippath="CatArabic.zip"
     echo "  جارٍ تنزيل التعليمات (الاوامر) البرمجية المصدر ..."
     wget -q $(_get_ziplink) -O "$zippath"
     echo "  تفريغ البيانات ..."
@@ -106,7 +106,7 @@ _set_bot () {
     . #######::. ######:: ########: ##:::. ##: ########::. #######::::: ##::::
     :.......::::......:::........::..:::::..::........::::.......::::::..:::::
     "
-    python3 -m userbot
+    python3 -m jmbot
 }
 
 _set_bot
